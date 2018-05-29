@@ -38,6 +38,10 @@ photometry.py
 
 Contains routines related to Gaia photometry, such as bolometric correction and a mass--luminosity relation.
 
+gaiaDR2
+
+Folder containing astroquery.gaia files modified for Gaia DR2.
+
 DR2_final.csv
 
 Ascii file containing details for all 30 of our close source--lens pairs. Includes the columns of Table A1 of Mustill, Davies & Lindegren (2018).
