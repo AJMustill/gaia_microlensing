@@ -40,7 +40,7 @@ Contains routines related to Gaia photometry, such as bolometric correction and 
 
 gaiaDR2
 
-Folder containing astroquery.gaia files modified for Gaia DR2.
+Folder containing astroquery.gaia ( https://astroquery.readthedocs.io/en/latest/gaia/gaia.html ) files modified for Gaia DR2.
 
 DR2_final.csv
 
