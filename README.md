@@ -42,11 +42,66 @@ gaiaDR2
 
 Folder containing astroquery.gaia ( https://astroquery.readthedocs.io/en/latest/gaia/gaia.html ) files modified for Gaia DR2.
 
-DR2_final.csv
-
-Ascii file containing details for all 30 of our close source--lens pairs. Includes the columns of Table A1 of Mustill, Davies & Lindegren (2018).
-
 EarthEphemerisNt8000.txt
 SolRADecNt8000.txt
 
 Tables from JPL Horizons service ( https://ssd.jpl.nasa.gov/horizons.cgi ) containing the Earth's (x,y,z) position from 2015.5 to 2035.5 for the calculation of parallax and the Sun's RA and Dec for the calculation of Solar elongation at a given epoch.
+
+DR2_final.csv
+
+Ascii file containing details for all 30 of our close source--lens pairs. Includes the columns of Table A1 of Mustill, Davies & Lindegren (2018). A full listing of columns is: 
+
+DR2 id lens:        Gaia DR2 id of the lens star
+G mag lens:         G-band appanent magnitude of the lens star
+RA lens:            Right ascension of the lens star (degrees)
+Dec lens:           Declination of the lens star (degrees)
+pmra lens:          Proper motion in RA mu_alpha* of the lens star (mas/yr)
+pmdec lens:         Proper motion in Dec mu_delta of the lens star (mas/yr)
+parallax lens:      Parallax of the lens star (mas)
+Teff lens low:      Priam Teff of the lens star (16th percentile, K)
+Teff lens:          Priam Teff of the lens star (nominal, K)
+Teff lens high:     Priam Teff of the lens star (84th percentile, K)
+M lens low:         Mass estimate for lens star from low Teff (M_Sol)
+M lens:             Mass estimate for lens star from nominal Teff (M_Sol)
+M lens high:        Mass estimate for lens star from high Teff (M_Sol)
+L lens low:         Luminosity estimate for lens star from low Teff (L_Sol)
+L lens:             Luminosity estimate for lens star from nominal Teff (L_Sol)
+L lens high:        Luminosity estimate for lens star from high Teff (L_Sol)
+RHZ low:            Habitable zone radius of lens star estimated from low Teff (au)
+RHZ:                Habitable zone radius of lens star estimated from nominal Teff (au)
+RHZ high:           Habitable zone radius of lens star estimated from high Teff (au)
+RE as low:          Angular Einstein radius estimate from low Teff (arcsec)
+RE as:              Angular Einstein radius estimate from nominal Teff (arcsec)
+RE as high:         Angular Einstein radius estimate from high Teff (arcsec)
+RE au low:          Einstein radius estimate from low Teff (au)
+RE au:              Einstein radius estimate from nominal Teff (au)
+RE au high:         Einstein radius estimate from high Teff (au)
+DR2 id source:      Gaia DR2 id of the source star
+G mag source:       G-band appanent magnitude of the source star
+RA source:          Right ascension of the source star (degrees)
+Dec source:         Declination of the source star (degrees)
+pmra source:        Proper motion in RA mu_alpha* of the source star (mas/yr)
+pmdec source:       Proper motion in Dec mu_delta of the source star (mas/yr)
+parallax source:    Parallax of the source star (mas)
+prob 1RE:           Probability of passing within 1 nominal Einstein radius (%)
+Dmin low:           Minimum approach (16th percentile, arcsec)
+Dmin:               Minimum approach (median, arcsec)
+Dmin high:          Minimum approach (84th percentile, arcsec)
+max mag low:        Maximum magnification (no dilution, 16th percentile)
+max mag:            Maximum magnification (no dilution, median)
+mag max high:       Maximum magnification (no dilution, 84th percentile)
+max mag net low:    Maximum magnification (with dilution, 16th percentile)
+max mag net:        Maximum magnification (with dilution, median)
+mag max net high:   Maximum magnification (with dilution, 84th percentile)
+Tmax low:           Date of peak magnification (16th percentile)
+Tmax:               Date of peak magnification (median)
+Tmax high:          Date of peak magnification (84th percentile)
+duration low:       Time undiluted magnification exceeds 10^-2 (16th percentile, days)
+duration:           Time undiluted magnification exceeds 10^-2 (median, days)
+duration high:      Time undiluted magnification exceeds 10^-2 (84th percentile, days)
+duration net low:   Time diluted magnification exceeds 10^-4 (16th percentile, days)
+duration net:       Time diluted magnification exceeds 10^-4 (median, days)
+duration net high:  Time diluted magnification exceeds 10^-4 (84th percentile, days)
+Sol elongation low: Solar elongation at peak magnification (16th percentile, degrees)
+Sol elongation:     Solar elongation at peak magnification (median, degrees)
+Sol elongation high: Solar elongation at peak magnification (84th percentile, degrees)
