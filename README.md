@@ -4,7 +4,7 @@ This repository contains code and tables to reproduce our predictions of future 
 
 (C) 2018 Alexander James Mustill, Lund Observatory, Department of Astronomy & Theoretical Physics, Lund University, Box 43, SE-221 00 Lund, Sweden
 
-If you make use of this code, please cite Mustill, Davies &amp; Lindegren (2018, A&amp;A submitted, https://arxiv.org/abs/1805.11638).
+If you make use of this code, please cite Mustill, Davies &amp; Lindegren (2018, A&amp;A 617, A135, https://arxiv.org/abs/1805.11638).
 
 Please direct any queries to Alexander Mustill, alex@astro.lu.se
 
